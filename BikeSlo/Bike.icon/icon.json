@@ -1,0 +1,131 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "srgb:0.84466,0.51457,1.00000,1.00000",
+      "srgb:0.58188,0.21569,1.00000,1.00000"
+    ]
+  },
+  "groups" : [
+    {
+      "hidden-specializations" : [
+        {
+          "value" : true
+        },
+        {
+          "appearance" : "light",
+          "value" : false
+        },
+        {
+          "appearance" : "tinted",
+          "value" : true
+        }
+      ],
+      "layers" : [
+        {
+          "hidden" : false,
+          "image-name" : "bicycle.svg",
+          "name" : "bicycle",
+          "position" : {
+            "scale" : 0.19,
+            "translation-in-points" : [
+              39.7265625,
+              106.38225
+            ]
+          }
+        },
+        {
+          "image-name" : "sun.max.svg",
+          "name" : "sun.max",
+          "position" : {
+            "scale" : 0.12,
+            "translation-in-points" : [
+              -254.296875,
+              -268.6953125
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.6
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.2
+      }
+    },
+    {
+      "hidden-specializations" : [
+        {
+          "value" : true
+        },
+        {
+          "appearance" : "dark",
+          "value" : false
+        },
+        {
+          "appearance" : "tinted",
+          "value" : false
+        }
+      ],
+      "layers" : [
+        {
+          "hidden" : false,
+          "image-name" : "bicycle.svg",
+          "name" : "bicycle",
+          "position" : {
+            "scale" : 0.19,
+            "translation-in-points" : [
+              39.7265625,
+              106.38225
+            ]
+          }
+        },
+        {
+          "image-name" : "moon.fill.svg",
+          "name" : "moon.fill",
+          "position" : {
+            "scale" : 0.1,
+            "translation-in-points" : [
+              -237.3515625,
+              -268.69531199977496
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.6
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.2
+      }
+    },
+    {
+      "hidden-specializations" : [
+        {
+          "appearance" : "dark",
+          "value" : false
+        }
+      ],
+      "layers" : [
+
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.6
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.2
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
