@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # BikeSlo
 
 iOS aplikacija za prikaz razpoložljivosti koles BicikeLJ in Nomago v Ljubljani.
@@ -74,5 +74,6 @@ ViewModels/ — nalaganje in osveževanje
 Views/ — vmesnik (SwiftUI)
 Shared/ — barve in pomožne razširitve
 Opomba
->>>>>>> main
+======
 To ni uradna aplikacija sistemov BicikeLJ ali Nomago.
+======
