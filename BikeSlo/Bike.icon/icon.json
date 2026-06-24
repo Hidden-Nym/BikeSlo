@@ -7,110 +7,21 @@
   },
   "groups" : [
     {
-      "hidden-specializations" : [
-        {
-          "value" : true
-        },
-        {
-          "appearance" : "light",
-          "value" : false
-        },
-        {
-          "appearance" : "tinted",
-          "value" : true
-        }
-      ],
       "layers" : [
         {
-          "hidden" : false,
-          "image-name" : "bicycle.svg",
-          "name" : "bicycle",
+          "fill" : {
+            "solid" : "srgb:1.00000,1.00000,1.00000,1.00000"
+          },
+          "image-name" : "bicycle 3.svg",
+          "name" : "bicycle 3",
           "position" : {
             "scale" : 0.19,
             "translation-in-points" : [
-              39.7265625,
-              106.38225
-            ]
-          }
-        },
-        {
-          "image-name" : "sun.max.svg",
-          "name" : "sun.max",
-          "position" : {
-            "scale" : 0.12,
-            "translation-in-points" : [
-              -254.296875,
-              -268.6953125
+              0,
+              0
             ]
           }
         }
-      ],
-      "shadow" : {
-        "kind" : "neutral",
-        "opacity" : 0.6
-      },
-      "translucency" : {
-        "enabled" : true,
-        "value" : 0.2
-      }
-    },
-    {
-      "hidden-specializations" : [
-        {
-          "value" : true
-        },
-        {
-          "appearance" : "dark",
-          "value" : false
-        },
-        {
-          "appearance" : "tinted",
-          "value" : false
-        }
-      ],
-      "layers" : [
-        {
-          "hidden" : false,
-          "image-name" : "bicycle.svg",
-          "name" : "bicycle",
-          "position" : {
-            "scale" : 0.19,
-            "translation-in-points" : [
-              39.7265625,
-              106.38225
-            ]
-          }
-        },
-        {
-          "image-name" : "moon.fill.svg",
-          "name" : "moon.fill",
-          "position" : {
-            "scale" : 0.1,
-            "translation-in-points" : [
-              -237.3515625,
-              -268.69531199977496
-            ]
-          }
-        }
-      ],
-      "shadow" : {
-        "kind" : "neutral",
-        "opacity" : 0.6
-      },
-      "translucency" : {
-        "enabled" : true,
-        "value" : 0.2
-      }
-    },
-    {
-      "hidden-specializations" : [
-        {
-          "appearance" : "dark",
-          "value" : false
-        }
-      ],
-      "layers" : [
-
       ],
       "shadow" : {
         "kind" : "neutral",

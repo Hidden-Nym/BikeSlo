@@ -16,9 +16,11 @@ struct NetworkBadge: View {
                 .font(.system(size: 10, weight: .bold, design: .rounded))
         }
         .foregroundStyle(.white)
+        .lineLimit(1)
         .padding(.horizontal, 5)
         .padding(.vertical, 1)
         .background(network.color, in: RoundedRectangle(cornerRadius: 4))
+        .fixedSize(horizontal: true, vertical: false)
     }
 }
 
@@ -38,9 +40,11 @@ struct AvailabilityPill: View {
         }
         .font(.system(size: 11, weight: .semibold))
         .foregroundStyle(station.availabilityColor)
+        .lineLimit(1)
         .padding(.horizontal, 7)
         .padding(.vertical, 2)
         .background(station.availabilityColor.opacity(0.12), in: Capsule())
+        .fixedSize(horizontal: true, vertical: false)
     }
 }
 
@@ -67,6 +71,7 @@ struct StationRow: View {
                     AvailabilityPill(station: station)
                 }
             }
+            .layoutPriority(1)
 
             Spacer(minLength: 6)
 
@@ -98,6 +103,8 @@ struct StationRow: View {
                     .font(.system(size: 15, weight: .bold, design: .rounded))
                     .foregroundStyle(Color.brand)
                     .monospacedDigit()
+                    .lineLimit(1)
+                    .fixedSize()
             }
             if appState.isFavorite(station) {
                 Image(systemName: "star.fill")
