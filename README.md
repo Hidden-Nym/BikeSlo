@@ -1,5 +1,5 @@
 
-# BikeSlo
+# LjBikes
 
 iOS aplikacija za prikaz razpoložljivosti koles BicikeLJ in Nomago v Ljubljani.
 
@@ -42,9 +42,8 @@ Razpoložljivost se osvežuje samodejno: seznam ob osvežitvi, podrobnosti posta
 
 ## Opomba
 
-=======
-BikeLj
-iOS aplikacija za prikaz razpoložljivosti koles BicikeLJ in Nomago v Ljubljani.
+
+LjBikes je iOS aplikacija za prikaz razpoložljivosti koles BicikeLJ in Nomago v Ljubljani.
 
 Funkcije
 Najbližje postaje glede na lokacijo (seznam in zemljevid)
@@ -64,16 +63,20 @@ Zahteve
 Xcode 26
 iOS 26 ali novejši
 Zagon
+
 Odpri BikeSlo.xcodeproj v Xcode.
+
 V Signing & Capabilities izberi svojo razvojno ekipo.
+
 Zgradi in poženi (Cmd+R).
-Zgradba
+
+## Zgradba
 Models/ — podatkovni model (BikeStation)
 Services/ — CityBikes API in lokacija
 ViewModels/ — nalaganje in osveževanje
 Views/ — vmesnik (SwiftUI)
 Shared/ — barve in pomožne razširitve
 Opomba
-======
+
 To ni uradna aplikacija sistemov BicikeLJ ali Nomago.
-======
+
